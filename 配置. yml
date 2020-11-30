@@ -1,0 +1,57 @@
+user:
+  #username 学号或者工号
+  username: ''
+  #tellphone 电话号码
+  tellphone: ''
+  #address 地址，定位信息
+  address: 中国广西壮族自治区钦州市钦南区
+  #email 接受通知消息的邮箱
+  email: 
+  #lon 当前位置经度，可以访问http://zuobiao.ay800.com/s/27/index.php获取
+  lon: '108.638798'
+  #lat 当前位置纬度
+  lat: '21.973350'
+  #school 学校全称
+  school: 北部湾大学
+#今日校园相关配置
+cpdaily:
+  #表单组默认选项配置
+  defaults:
+    #表单默认选项配置，按顺序，注意，只有标必填项的才处理，不会配置就执行generate.py
+    - default:
+        title: 今天的身体状况
+        type: 2
+        value: 正常
+    - default:
+        title: 本人当前所在位置
+        type: 1
+        value: 广西壮族自治区/钦州市/钦南区
+    - default:
+        title: 填报当日是否在学校？
+        type: 2
+        value: 是
+    - default:
+        title: 填报当日前14天内你或你的共同居住人是否有疫情中、高风险地区旅居史？
+        type: 2
+        value: 否
+    - default:
+        title: 填报当日前14天内你或你的共同居住人是否有国（境）外旅居史？
+        type: 2
+        value: 否
+    - default:
+        title: 填报当日前14天内你或你的共同居住人是否与新冠肺炎确诊、疑似病例或无症状感染者接触过？
+        type: 2
+        value: 否
+    - default:
+        title: 填报当日前14天内你或你的共同居住人是否是新冠肺炎确诊、疑似病例或无症状感染者？
+        type: 2
+        value: 否
+    - default:
+        title: 你或你的共同居住人目前是否被医学隔离？
+        type: 2
+        value: 否
+    - default:
+        title: 本人承诺以上所填报的全部内容均属实、准确，无瞒报、谎报、漏报，对自己填报的信息负责。
+        type: 2
+        value: 我承诺
+    
